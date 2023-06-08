@@ -2,6 +2,7 @@ import { Stack } from "@mui/material";
 import React from "react";
 import Header from "../component/Header";
 import Menu from "../component/Menu";
+import "../App.css";
 
 function Main() {
   return (
@@ -11,15 +12,17 @@ function Main() {
       <Stack width="100%" height="100%" bgcolor="#000000" direction="row">
         <Menu />
         <Stack width="56%" height="100%" bgcolor="yellow">
-          <Stack width="100%" height="40%" bgcolor="white">
-            <Stack width="100%" height="70%"></Stack>
-            <Stack width="100%" height="30%" margin="0 0 15px 15px">
-              <Stack width="100%" height="60%" fontSize="xx-large">
-                수돌로그
-              </Stack>
-              <Stack width="100%" height="40%" fontSize="large">
-                수돌이의 소중한 하루를 기록해요
-              </Stack>
+          <Stack
+            width="100%"
+            height="40%"
+            bgcolor="white"
+            justifyContent="flex-end"
+          >
+            <Stack fontSize="xx-large" margin="0 0 20px 0">
+              수돌로그
+            </Stack>
+            <Stack fontSize="large" margin="0 0 10px 0n">
+              수돌이의 소중한 하루를 기록해요
             </Stack>
           </Stack>
           <Stack width="100%" height="60%" bgcolor="#FFF4FD"></Stack>
