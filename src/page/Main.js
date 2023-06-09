@@ -18,10 +18,10 @@ function Main() {
             bgcolor="white"
             justifyContent="flex-end"
           >
-            <Stack fontSize="xx-large" margin="0 0 20px 0">
+            <Stack fontSize="50px" fontWeight="lighter" margin="0 0 10px 20px">
               수돌로그
             </Stack>
-            <Stack fontSize="large" margin="0 0 10px 0n">
+            <Stack fontSize="30px" fontWeight="lighter" margin="0 0 20px 20px">
               수돌이의 소중한 하루를 기록해요
             </Stack>
           </Stack>
