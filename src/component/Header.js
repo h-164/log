@@ -33,7 +33,7 @@ function Header() {
           width="110px"
           style={{ cursor: "pointer" }}
           onClick={() => {
-            navigate("/log");
+            navigate("/write");
           }}
         />
       </Stack>
