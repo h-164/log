@@ -4,3 +4,8 @@
   font-family: "saemaul";  
   src: url("./font/HSSaemaul-Regular.ttf"); 
 }
+
+@font-face {
+  font-family: "omu";  
+  src: url("./font/오뮤_다예쁨체.ttf"); 
+}

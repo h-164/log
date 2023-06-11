@@ -27,6 +27,7 @@ function Header() {
             navigate("/");
           }}
         />
+
         <img
           src={water}
           alt="water icon"

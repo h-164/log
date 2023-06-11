@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../component/Header";
 import Menu from "../component/Menu";
 import "../App.css";
+import sumung from "../image/sumung.gif";
 
 function Main() {
   return (
@@ -26,7 +27,7 @@ function Main() {
             justifyContent="flex-end"
             padding="0 0 0 360px"
           >
-            <Stack fontSize="50px" margin="0 0 10px 0px">
+            <Stack fontSize="60px" margin="0 0 0px 0px">
               수돌로그
             </Stack>
             <Stack fontSize="30px" margin="0 0 20px 0px">
@@ -45,7 +46,16 @@ function Main() {
           height="100%"
           minHeight="100vh"
           bgcolor="white"
-        ></Stack>
+          alignItems="center"
+        >
+          <Stack fontSize="20px" margin="170px 0 0 10px">
+            요즘 나는
+          </Stack>
+          <img src={sumung} alt="sumung" width="80px" />
+          <Stack fontSize="20px" margin="5px 0 0 0">
+            배고파요
+          </Stack>
+        </Stack>
       </Stack>
       <Header />
     </Stack>

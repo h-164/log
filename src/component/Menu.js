@@ -61,16 +61,6 @@ function Menu() {
       >
         > Emotion 😀
       </Stack>
-      <Stack
-        fontSize="30px"
-        margin="0 0 20px 120px"
-        style={{ cursor: "pointer" }}
-        onClick={() => {
-          navigate("/hashtag");
-        }}
-      >
-        > Hash Tag #
-      </Stack>
     </Stack>
   );
 }
