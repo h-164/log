@@ -25,14 +25,14 @@ function Menu() {
         />
       </Stack>
       <Stack
-        fontSize="30px"
+        fontSize="28px"
         margin="0 0 20px 120px"
         style={{ cursor: "pointer" }}
       >
         > Log 🍭
       </Stack>
       <Stack
-        fontSize="30px"
+        fontSize="28px"
         margin="0 0 20px 120px"
         style={{ cursor: "pointer" }}
         onClick={() => {
@@ -42,7 +42,7 @@ function Menu() {
         > Listening 🎧
       </Stack>
       <Stack
-        fontSize="30px"
+        fontSize="28px"
         margin="0 0 20px 120px"
         style={{ cursor: "pointer" }}
         onClick={() => {
@@ -52,7 +52,7 @@ function Menu() {
         > Interests 💖
       </Stack>
       <Stack
-        fontSize="30px"
+        fontSize="28px"
         margin="0 0 20px 120px"
         style={{ cursor: "pointer" }}
         onClick={() => {
